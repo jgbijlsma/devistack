@@ -48,7 +48,7 @@ export default function IndexPage() {
           <h2 className="mb-4 text-3xl text-yellow-400">Prisma</h2>
           <p>SQL and NO-SQL ORM with a simple declarative schema language.</p>
           <Link
-            href="https://www.typescriptlang.org/docs/"
+            href="https://www.prisma.io/"
             className="mt-4 inline-block text-yellow-400 hover:text-yellow-600"
           >
             Documentation
@@ -117,19 +117,13 @@ export default function IndexPage() {
         </div>
 
         <div className="w-80 m-4 p-4 border border-zinc-400 rounded-lg">
-          <h2 className="mb-4 text-3xl text-fuchsia-500">Vercel & Railway</h2>
-          <p>Recommended hosting solutions.</p>
+          <h2 className="mb-4 text-3xl text-fuchsia-500">Render</h2>
+          <p>Recommended hosting solution</p>
           <Link
-            href="https://vercel.com/"
+            href="https://render.com/"
             className="mt-4 block text-fuchsia-500 hover:text-fuchsia-700"
           >
-            Vercel
-          </Link>
-          <Link
-            href="https://railway.app/"
-            className="mt-1 block text-fuchsia-500 hover:text-fuchsia-700"
-          >
-            Railway
+            Render
           </Link>
         </div>
       </div>
